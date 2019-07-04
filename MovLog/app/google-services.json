@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "3063671326",
+    "firebase_url": "https://movlog-2d68c.firebaseio.com",
+    "project_id": "movlog-2d68c",
+    "storage_bucket": "movlog-2d68c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3063671326:android:66e1ec691bf8ab3e",
+        "android_client_info": {
+          "package_name": "com.example.rog.movlog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3063671326-nofchdboftqooq5t2ql0cm81bufih17t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rog.movlog",
+            "certificate_hash": "037ec9173ef6234ee736363680e25acd7d483df6"
+          }
+        },
+        {
+          "client_id": "3063671326-5sttr6dr895bg0v0joci65mmovlm1p3s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqK3tC9JXueanGsnl9DPtJq5VPYLOp03Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3063671326-5sttr6dr895bg0v0joci65mmovlm1p3s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

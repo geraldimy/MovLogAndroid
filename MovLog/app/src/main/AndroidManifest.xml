@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rog.movlog">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_movlog_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_movlog_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivityGenre"
+            android:label="@string/title_activity_main_genre"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Login"></activity>
+        <activity
+            android:name=".Register"
+            android:parentActivityName=".Login" />
+        <activity android:name=".MovieDetail" />
+        <activity android:name=".ShowComment" />
+        <activity
+            android:name=".AboutUs"
+            android:label="@string/title_activity_about_us"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ResetPassword"
+            android:parentActivityName=".Login" />
+        <activity android:name=".LogGoogle"></activity>
+        <activity android:name=".SplashScreen"></activity>
+    </application>
+
+</manifest>
